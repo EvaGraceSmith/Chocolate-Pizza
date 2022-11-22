@@ -12,6 +12,14 @@ body{
     background-color: whitesmoke;
     color: black;
 }
+.header-line{
+    display: flex;
+    justify-content: space-between;
+}
+.header-icons{
+    display: flex;
+    justify-content: right;
+}
 
 .content-wrap {
     max-width: 900px;
@@ -19,9 +27,9 @@ body{
     margin: 0 auto;
     }
 
-header{
+/* header{
     height:200px;
-}
+} */
 
 h2 {
     font-family: 'Oswald', sans-serif;
@@ -37,10 +45,10 @@ h3 {
     margin-right: 630px;
 }
 
-main{
+/* main{
     height: 800px;
 
-}
+} */
 
 .directions{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,23 +69,19 @@ main{
     padding:30px;
     line-height: 1.5;
     font-size: 18px;
-    margin-left: 120px;
+    margin-left: 105px;
 }
 
 .line-through {
     text-decoration: line-through;
 }
 .recipe{
-    background-image:url("../images/ChocZaAssets/list-bg.png");
+    background-image:url("../images/list-bg.png");
 margin: 30px;
 }
 
 
-
-footer {
-    height: 200px;
-}
-
+/* footer */
 
 .button {
     background-color: orangered;
@@ -92,19 +96,19 @@ footer {
     cursor: pointer;
   }
 
-.footer h3 {
+footer h3 {
     color: black;
     /* font-weight: bold; */
     padding-bottom: 20px;
     font-size: 2em;
 }
 
-.footer p {
+footer p {
     align-content: center;
     opacity: 80%;
 }
 
-.footer h4 {
+footer h4 {
     color: gray;
 }
 
