@@ -1,10 +1,11 @@
 
 /* fonts:
-font-family: 'Neucha', cursive;
 font-family: 'Oswald', sans-serif;
-font-family: 'Patrick Hand', cursive;
 font-family: 'Yellowtail', cursive;
- */
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Patrick Hand', cursive;
+*/
 
 
 
@@ -24,6 +25,8 @@ h1 a{
     font-size: 60px;
 }
 .header-line{
+    font-family: 'Advent Pro', sans-serif;
+    color: grey;
     display: flex;
     justify-content: space-between;
     
@@ -45,22 +48,31 @@ header{
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-size: 46px;
     margin-top: 50px;
 }
 
 .print{
     display: inline-flex
+    
+}
+
+.print span{
+    font-family: 'Advent Pro', sans-serif;
+    color: grey;
 }
 h3 {
-    font-family: 'Neucha', cursive;
+    font-family: 'Advent Pro', sans-serif;
+    color: grey;
     margin-top: 10px;
     margin-right: 600px;
 }
+
 .pricon{
     margin-left: 1px;
     margin-right: 1px;
-    width: 25px;
+    width: 20px;
+    height: 15px;
 }
  .pizza {
     margin-top: 40px;
@@ -71,26 +83,40 @@ h3 {
 } */
 
 .directions{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif', serif;
     font-size: 18px;
     line-height: 1.5;
+    color: gray;
 }
 .directions p{
     margin-top: 30px;
 }
 
 .ingredients{
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 30px;
+    padding-right: 30px; */
+
     
 }
 
 .ingredients article{
-    font-family: 'Neucha', cursive;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 6px;
+    padding-top: 35px;
     padding:30px;
-    line-height: 1.5;
-    font-size: 18px;
-    margin-left: 105px;
+    color: rgb(127, 90, 73);
+    line-height: 1.4;
+    font-size: 22px;
+    margin-left: 30px;
+    max-width: 350px;
 }
+
+/* [type="checkbox"]:not(:checked){
+    opacity: 0;
+    border: 1px solid #aaa;
+} */
 
 .line-through {
     text-decoration: line-through;
@@ -98,6 +124,8 @@ h3 {
 .recipe{
     background-image:url("../images/list-bg.png");
 margin: 30px;
+padding: 2px;
+min-height: 300px;
 }
 
 
@@ -117,29 +145,64 @@ margin: 30px;
   }
 
 footer h3 {
-    color: black;
-    /* font-weight: bold; */
-    padding-bottom: 20px;
-    font-size: 2em;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    color: rgb(94, 93, 93);
+padding-bottom: .5em;
+    padding-top: 5px;
+    font-size: 1.5em;
 }
 
-footer p {
+.button{
+    margin-top: 20px;
+    height: 3.5em;
+}
+
+.authorPlusButton{
+    display: flex;
+    justify-content: space-between;
+}
+.authorInfo{
+    display: flex;
+}
+
+.authorPlusButton p {
+    font-family: 'Noto Serif', serif;
     align-content: center;
-    opacity: 80%;
+    line-height: 1.5;
+    opacity: 60%;
 }
 
 footer h4 {
+    font-family: 'Noto Serif', serif;
+    text-align: center;
     color: gray;
+    line-height: 1.5;
 }
 
-footer img {
-    float: left;
-    padding: 20px;
+.authorInfo img {
+    width: 16em;
+    height: 4.7em;
+    margin: 1em;
+    /* float: left; */
+    /* padding: 20px; */
 }
 
-footer section {
+.authorInfo {
     float: left;
     width: 60%;
+} 
+
+.divider {
+    display: flex;
+    color: lightgray;
+    justify-content: center;
+    align-items: center;
 }
+
+/* .divider img{
+    margin-top: 10px;
+    padding-top: 10px;
+} */
 
 
